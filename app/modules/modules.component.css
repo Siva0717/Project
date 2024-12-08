@@ -1,0 +1,94 @@
+.container {
+    text-align: center;
+    background-image: url('/cab.jpeg'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Title and description */
+  .container h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px black;
+  }
+  
+  .container p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Module card container */
+  .modules {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Individual module card */
+  .module-card {
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+  }
+  
+  .module-card:hover {
+    background: rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
+  }
+  
+  .module-card h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: black;
+  }
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-content p {
+    font-size: 18px;
+    margin: 0 0 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .social-icons img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1.1);
+  }

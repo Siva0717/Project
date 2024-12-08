@@ -1,0 +1,71 @@
+
+    <div class="form-container">
+      <h1>New User? Register Here</h1>
+      <form class="register" [formGroup]="form" >
+        
+     
+        
+
+        <div class="form-group">
+          <label>Full Name</label>
+          <input
+            type="text"
+            id="fullName"
+            formControlName="fullName"
+            placeholder="Enter your full name"
+          />
+          
+        </div>
+  
+        <div class="form-group">
+          <label>Email</label>
+          <input
+            type="email"
+            id="email"
+            formControlName="email"
+            placeholder="Enter your email"
+          />
+          
+        </div>
+  
+        <div class="form-group">
+          <label >Password</label>
+          <input
+            type="password"
+            id="password"
+            formControlName="password"
+            placeholder="Enter your password"
+          />
+          
+        </div>
+  
+        <div class="form-group">
+          <label>Confirm Password</label>
+          <input
+            type="password"
+            id="confirmPassword"
+            formControlName="confirmPassword"
+            placeholder="Confirm your password"
+          />
+          
+        </div>
+  
+        <div class="form-group">
+          <label>Phone</label>
+          <input
+            type="text"
+            id="phone"
+            formControlName="phone"
+            placeholder="Enter your phone number"
+          />
+          
+        </div>
+  
+        
+          
+       
+  
+        <button type="submit" class="submit-btn" (click)="submit()">Register</button>
+    
+      </form>
+  </div>

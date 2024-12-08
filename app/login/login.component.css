@@ -1,0 +1,88 @@
+button.submit-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.submit-btn:hover {
+    background: #0056b3;
+  }
+  .form-wrapper {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Form Container */
+  .form-container {
+    width: 100%;
+    padding: 40px;
+    background-image: url('/cab.jpeg');
+    background-image: url('/cab.jpeg');
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-size:contain;
+    background-position: center;
+    height: 100vh;
+    
+    
+    
+  }
+  
+  .form-container h1 {
+    margin-bottom: 0px;
+    color:orangered;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  /* Form Styling */
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+ 
+    gap: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #007bff;
+  }
+  
+  textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  small {
+    color: red;
+    font-size: 0.875rem;
+  }
